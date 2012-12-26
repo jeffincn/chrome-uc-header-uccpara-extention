@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>uccpara配置处理</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="source/popup.js"></script>
+        <script src="source/md5.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic' rel='stylesheet' type='text/css'>
+    <style>
+    body {font-family: 'Ubuntu', sans-serif;}
+    </style>
+    </head>
+    <body>
+        <div id="save_status">&nbsp;</div>
+        <div id="simulates">模拟UCWEB浏览器
+            <button  style="margin-left:5px; padding:3pt 10pt 3pt 10pt;-webkit-border-radius:10px;" class="status_button" id="enable_simulate"  >►</button>
+            <button  style="margin-left:5px; padding:3pt 10pt 3pt 10pt;-webkit-border-radius:10px; " class="status_button"  id="disable_simulate" >■</button>
+            <button  style="margin-left:20px; padding:3pt 10pt 3pt 10pt;-webkit-border-radius:10px; " id="save_uccpara_button">保存参数</button></div>
+    <fieldset id="platform">
+        <legend>选择平台</legend>
+        <div><input type="radio" name="pf" id="pf_28" value="28"><label for="pf_28">塞班S60V3专版</label></div>
+        <div><input type="radio" name="pf" id="pf_41" value="41"><label for="pf_41">iPhone4.0专版</label></div>
+        <div><input type="radio" name="pf" id="pf_145" value="145"><label for="pf_145">Android u3 内核</label></div>
+        <div><label for="otherpfid">其他平台pfid：<input type="text" id="otherpfid" value="" /></label></div>
+    </fieldset>
+    <fieldset id="version">
+        <legend>选择版本</legend>
+        <div><input type="text" name="ver" id="ver" value="" /></div>
+    </fieldset>
+    <fieldset id="uccpara_field">
+        <legend>UCCPARA参数</legend>
+        <div style="width:350px;"><textarea id="uccpara" cols="30" style="height:78px;float:left;"></textarea><button id="sncode_gen_button" style="width:85px;height:85px;float:left">随机生成新snid</button></div>
+    </fieldset>
+
+    </body>
+</html>
