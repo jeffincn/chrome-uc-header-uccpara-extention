@@ -3,12 +3,12 @@
     "version": "0.5.0.0",
     "description": "用于模拟UCWEB的Header请求，通过在Header中增加uccpara实现（可能比较简单），该功能可以用于浏览器访问伪造一段UCWEB浏览器的请求信息，因此如果你访问的问站在使用该插件后被跳转到wap站点，可以选择停止运行模拟即可。（guojf2@ucweb.com)",
     "icons":{
-        "16":"icon.png",
-        "48":"icon.png",
-        "128":"icon.png"
+        "16":"ucweb.png",
+        "48":"ucweb.png",
+        "128":"ucweb.png"
     },
     "browser_action": {
-        "default_icon": "icon.png", // optional
+        "default_icon": "ucweb.png", // optional
         "default_popup": "options.html",        // optional
         "default_text": "模拟UCWEB浏览器"
     },
